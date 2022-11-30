@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 # number of foxes with certain parasites.
 
 
-# Input fox-parasite datat to vector
+# Input fox-parasite data to vector
 fp = [0] * 69
 fp += [1] * 17
 fp += [2] * 6
@@ -30,4 +30,4 @@ ax.set_ylabel("Relative Frequency")
 
 # Save figure and show.
 plt.show()
-fig.savefig("ex1_25_b.pdf", dpi=300, format='pdf')
+fig.savefig("ex1_37_a.pdf", dpi=300, format='pdf')
