@@ -15,11 +15,11 @@ rcParams['text.usetex'] = True
 # phosphate mining areas in Florida.
 
 # Input radioactivity readings to vector.
-radioactive = [ .74, 6.46, 1.90, 2.69, .75,
-                .32, 9.99, 1.77, 2.41, 1.96,
-                1.66, .70, 2.42, .54, 3.36,
-                3.59, .37, 1.09, 8.32, 4.06,
-                4.55, .76, 2.03, 5.70, 12.48 ]
+radioactive = [.74, 6.46, 1.90, 2.69, .75,
+               .32, 9.99, 1.77, 2.41, 1.96,
+               1.66, .70, 2.42, .54, 3.36,
+               3.59, .37, 1.09, 8.32, 4.06,
+               4.55, .76, 2.03, 5.70, 12.48]
 
 
 # Create the histogram.

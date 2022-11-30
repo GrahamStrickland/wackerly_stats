@@ -11,8 +11,8 @@ import matplotlib.pyplot as plt
 
 
 # Input heartrate data to vector.
-heartrate = [   87, 109, 79, 80, 96, 95, 90, 92, 96, 98,
-                101, 91, 78, 112, 94, 98, 94, 107, 81, 96 ]
+heartrate = [87, 109, 79, 80, 96, 95, 90, 92, 96, 98,
+             101, 91, 78, 112, 94, 98, 94, 107, 81, 96]
 
 
 # Create the histogram.
