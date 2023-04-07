@@ -1,7 +1,7 @@
 # WMS Ex. 1.25 (b) - Relative frequency histogram representing
 # lengths of time to failure for n=88 radio transmitter-devices.
 
-# Input radio transmitter data to vector.
+
 radio <- c(16, 224, 16, 80, 96, 536, 400, 80,
            392, 576, 128, 56, 656, 224, 40, 32,
            358, 384, 256, 246, 328, 464, 448, 716,
@@ -14,12 +14,13 @@ radio <- c(16, 224, 16, 80, 96, 536, 400, 80,
            56, 72, 64, 40, 184, 264, 96, 224,
            168, 168, 114, 280, 152, 208, 160, 176)
 
-# Create the histogram.
-hist(radio, freq = FALSE, main = "Time to Failure for 88 Radio Transmitter-devices",
-     xlab = "Time to Failure (minutes)", ylab = "Relative Frequency")
 
-# Save figure.
-pdf("ex1_25_b.pdf", height=5, width=7, pointsize=12)
-hist(radio, freq = FALSE, main = "Time to Failure for 88 Radio Transmitter-devices",
-     xlab = "Time to Failure (minutes)", ylab = "Relative Frequency")
+hist(radio,
+     freq = FALSE,
+     main = "Time to Failure for 88 Radio Transmitter-devices",
+     xlab = "Time to Failure (minutes)",
+     ylab = "Relative Frequency")
+
+
+pdf("ex1_25_b.pdf")
 dev.off()
