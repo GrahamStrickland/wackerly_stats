@@ -3,15 +3,19 @@
 # while engaged in aqua running.
 
 
-heartrate <- c(87, 109, 79, 80, 96, 95, 90, 92, 96, 98,
-               101, 91, 78, 112, 94, 98, 94, 107, 81, 96)
+heartrate <- c(
+     87, 109, 79, 80, 96, 95, 90, 92, 96, 98,
+     101, 91, 78, 112, 94, 98, 94, 107, 81, 96
+)
 
 
-hist(heartrate,
+hist(
+     heartrate,
      freq = FALSE,
      main = "Heart Rate of 20 Aqua Runners",
      xlab = "Heart Rate (cycles per minute)",
-     ylab = "Relative Frequency")
+     ylab = "Relative Frequency"
+)
 
 
 pdf("ex1_24_b.pdf")
