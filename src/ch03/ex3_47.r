@@ -1,9 +1,7 @@
 # WMS Ex. 3.47 - Histogram representing binomial probability
 # distribution for n = 20, p = .5
 
-
 require("latex2exp")
-
 
 ys <- c(
   .000, .000, .000, .001, .006,
@@ -23,6 +21,5 @@ barplot(
   names.arg = xs,
   ylab = TeX(r"($p(y)$)"),
 )
-
 
 dev.off()

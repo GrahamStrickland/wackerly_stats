@@ -36,3 +36,6 @@ __pycache__/
 # R files
 .Rhistory
 .RData
+
+# Plots
+plots/
